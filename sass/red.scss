@@ -1,4 +1,4 @@
-$green:               #41ab51;
-$red:                 #ff6138;
+$green: adjust-hue(#41ab51, 180deg);
+$red:   adjust-hue(#ff6138, 180deg);
 
 @import "styles";

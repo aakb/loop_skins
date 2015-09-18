@@ -5,6 +5,7 @@ function loop_skins_form_system_theme_settings_alter(&$form, $form_state) {
     '#title'         => t('Skin'),
     '#options' => array(
       '' => t('(default)'),
+      'red' => t('Red'),
       'blue' => t('Blue'),
     ),
     '#default_value' => theme_get_setting('loop_skins_skin'),
