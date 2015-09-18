@@ -602,7 +602,7 @@ label {
   display: none; }
 
 .form-required {
-  color: blue; }
+  color: #ff6138; }
 
 .form-select {
   border: 1px solid #cccccc;
@@ -743,15 +743,15 @@ label {
     margin: 0 0 0.5em; }
 
 .button--action, .form-submit, .block-follow-question .flag-action, .typeahead-block--button {
-  background-color: #ff3333;
-  border: 1px solid red;
+  background-color: #5dc26d;
+  border: 1px solid #41ab51;
   color: white;
-  text-shadow: 1px 1px 0 #cc0000; }
+  text-shadow: 1px 1px 0 #33863f; }
   .button--action:link, .form-submit:link, .block-follow-question .flag-action:link, .typeahead-block--button:link, .button--action:visited, .form-submit:visited, .block-follow-question .flag-action:visited, .typeahead-block--button:visited {
     color: white;
     text-decoration: none; }
   .button--action:hover, .form-submit:hover, .block-follow-question .flag-action:hover, .typeahead-block--button:hover {
-    background-color: red; }
+    background-color: #41ab51; }
 
 .button--neutral, .user-profile-form #edit-field-user-image-und-0-upload-button, .comments--editor-actions .comments--editor-actions-edit, .question--editor-actions .question--editor-actions-edit, .edit-user--image-button-add {
   background-color: #595959;
@@ -765,15 +765,15 @@ label {
     background-color: #262626; }
 
 .button--warning, .comments--editor-actions .comments--editor-actions-delete, .block-follow-question .unflag-action, .question--editor-actions .question--editor-actions-delete, .edit-user--image-button-remove {
-  background-color: blue;
-  border: 1px solid #0000cc;
+  background-color: #ff6138;
+  border: 1px solid #ff3905;
   color: white;
-  text-shadow: 1px 1px 0 #000099; }
+  text-shadow: 1px 1px 0 #d12b00; }
   .button--warning:link, .comments--editor-actions .comments--editor-actions-delete:link, .block-follow-question .unflag-action:link, .question--editor-actions .question--editor-actions-delete:link, .edit-user--image-button-remove:link, .button--warning:visited, .comments--editor-actions .comments--editor-actions-delete:visited, .block-follow-question .unflag-action:visited, .question--editor-actions .question--editor-actions-delete:visited, .edit-user--image-button-remove:visited {
     color: white;
     text-decoration: none; }
   .button--warning:hover, .comments--editor-actions .comments--editor-actions-delete:hover, .block-follow-question .unflag-action:hover, .question--editor-actions .question--editor-actions-delete:hover, .edit-user--image-button-remove:hover {
-    background-color: #0000cc; }
+    background-color: #ff3905; }
 
 .button--deactivated, .typeahead-block--button:disabled {
   background-color: #cccccc;
@@ -1059,7 +1059,7 @@ label {
 .header {
   margin-bottom: 1.5em;
   z-index: 1;
-  background-color: red;
+  background-color: #41ab51;
   /* setting:header_color */ }
   .header:before, .header:after {
     content: "";
@@ -1499,7 +1499,7 @@ label {
     height: 2.75em;
     margin-left: .7em;
     width: 2.75em;
-    background-color: #ff3333;
+    background-color: #5dc26d;
     line-height: 2em;
     text-align: center;
     -moz-border-radius: 100%;
@@ -1521,7 +1521,7 @@ label {
     .nav--wrapper .nav--link:hover,
     .nav--wrapper .nav--frontpage-link:hover,
     .nav--wrapper .nav--logout:hover {
-      background-color: #ff6666; }
+      background-color: #82d08e; }
     .nav--wrapper .nav-dropdown--header.active-trail, .nav--wrapper .nav-dropdown--header.active,
     .nav--wrapper .nav--toggle-mobile-nav.active-trail,
     .nav--wrapper .nav--toggle-mobile-nav.active,
@@ -1532,7 +1532,7 @@ label {
     .nav--wrapper .active.nav--frontpage-link,
     .nav--wrapper .active.nav--logout {
       background-color: #f2f2f2;
-      color: red; }
+      color: #41ab51; }
       .nav--wrapper .nav-dropdown--header.active-trail:hover, .nav--wrapper .nav-dropdown--header.active:hover,
       .nav--wrapper .nav--toggle-mobile-nav.active-trail:hover,
       .nav--wrapper .nav--toggle-mobile-nav.active:hover,
@@ -1542,7 +1542,7 @@ label {
       .nav--wrapper .nav--link.active:hover,
       .nav--wrapper .active.nav--frontpage-link:hover,
       .nav--wrapper .active.nav--logout:hover {
-        background-color: #ff3333;
+        background-color: #5dc26d;
         color: #f2f2f2; }
     @media only screen and (min-width: 35em) {
       .nav--wrapper .nav-dropdown--header,
@@ -1633,7 +1633,7 @@ label {
     padding-top: .5em;
     padding-right: 1.25em;
     padding-left: 1.25em;
-    background-color: #ff3333;
+    background-color: #5dc26d;
     line-height: 2.5em;
     -moz-border-radius: 0 0 0.4em 0.4em;
     -webkit-border-radius: 0;
@@ -1656,7 +1656,7 @@ label {
   .nav-dropdown .nav-dropdown--header.active-trail:hover .nav-dropdown--icon-white {
     display: block; }
   .nav-dropdown .nav-dropdown--link {
-    border-bottom: 1px solid #ff6666;
+    border-bottom: 1px solid #82d08e;
     margin-bottom: .5em;
     padding-bottom: .5em;
     display: block;
@@ -1689,13 +1689,13 @@ label {
   padding: 1.5em;
   height: 100%;
   width: 76%;
-  background-color: red;
+  background-color: #41ab51;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -moz-box-shadow: 5px 0 8px #cc0000 inset;
-  -webkit-box-shadow: 5px 0 8px #cc0000 inset;
-  box-shadow: 5px 0 8px #cc0000 inset;
+  -moz-box-shadow: 5px 0 8px #33863f inset;
+  -webkit-box-shadow: 5px 0 8px #33863f inset;
+  box-shadow: 5px 0 8px #33863f inset;
   -moz-transform: translate3d(100%, 0, 0);
   -ms-transform: translate3d(100%, 0, 0);
   -webkit-transform: translate3d(100%, 0, 0);
@@ -1719,7 +1719,7 @@ label {
     border-bottom: 1px solid #e6e6e6;
     margin-bottom: 1em;
     padding-bottom: 1em;
-    border-bottom-color: #ff3333;
+    border-bottom-color: #5dc26d;
     display: block; }
   .nav-mobile .nav-dropdown--icon-white,
   .nav-mobile .nav-dropdown--icon-green {
@@ -2232,7 +2232,7 @@ This file is generated by `grunt build`, do not edit it by hand.
   @media only screen and (min-width: 45em) {
     .block-user-links {
       display: block;
-      background-color: red; }
+      background-color: #41ab51; }
       .block-user-links ul {
         list-style-type: none;
         padding: 0;
@@ -2241,7 +2241,7 @@ This file is generated by `grunt build`, do not edit it by hand.
         padding: 0 0 0 1em; } }
 
 .block-module--user-links-header {
-  border-bottom: 1px solid #ff3333;
+  border-bottom: 1px solid #5dc26d;
   color: white;
   padding-bottom: 0.5em; }
 
@@ -2250,7 +2250,7 @@ This file is generated by `grunt build`, do not edit it by hand.
   border-bottom: 1px solid #e6e6e6;
   margin-bottom: 1em;
   padding-bottom: 1em;
-  border-bottom-color: #ff3333; }
+  border-bottom-color: #5dc26d; }
   .block-module--user-links-item a:link {
     color: white;
     text-decoration: none; }
@@ -2292,15 +2292,15 @@ This file is generated by `grunt build`, do not edit it by hand.
   margin-bottom: 1em;
   padding-bottom: 1em; }
   .block-module--my-content-item a:link {
-    color: red;
+    color: #41ab51;
     text-decoration: none; }
   .block-module--my-content-item a:visited {
-    color: red; }
+    color: #41ab51; }
   .block-module--my-content-item a:hover {
-    color: red;
+    color: #41ab51;
     text-decoration: underline; }
   .block-module--my-content-item a:focus {
-    color: red; }
+    color: #41ab51; }
   .block-module--my-content-item:last-child {
     border-bottom: 0;
     margin-bottom: 0;
@@ -2365,7 +2365,7 @@ This file is generated by `grunt build`, do not edit it by hand.
   margin-bottom: 2em;
   padding-bottom: 1.5em; }
   .comments--comment.is-sticky {
-    border: 1px solid red;
+    border: 1px solid #41ab51;
     margin-bottom: 2.5em;
     padding: 1.5em;
     background-color: #f5ffe7;
@@ -2444,29 +2444,29 @@ This file is generated by `grunt build`, do not edit it by hand.
     list-style: none;
     padding: 0; }
   .comments--abuse a:link {
-    color: red;
+    color: #41ab51;
     text-decoration: none; }
   .comments--abuse a:visited {
-    color: red; }
+    color: #41ab51; }
   .comments--abuse a:hover {
-    color: red; }
+    color: #41ab51; }
   .comments--abuse a:focus {
-    color: red; }
+    color: #41ab51; }
   .comments--abuse a.is-active:link {
-    color: red;
+    color: #41ab51;
     text-decoration: none; }
   .comments--abuse a.is-active:visited {
-    color: red; }
+    color: #41ab51; }
   .comments--abuse a.is-active:hover {
-    color: red; }
+    color: #41ab51; }
   .comments--abuse a.is-active:focus {
-    color: red; }
+    color: #41ab51; }
   .comments--abuse a.is-hidden {
     display: none; }
   .comments--abuse a:before {
     margin-right: .5em; }
   .comments--abuse a:hover {
-    color: red; }
+    color: #41ab51; }
 
 .comments--editor-actions {
   font-size: .8em;
@@ -2802,7 +2802,7 @@ This file is generated by `grunt build`, do not edit it by hand.
   display: inline-block;
   height: 2em;
   width: 2.05em;
-  background-color: blue;
+  background-color: #ff6138;
   color: white;
   font-size: 65%;
   font-weight: bold;
@@ -2969,29 +2969,29 @@ This file is generated by `grunt build`, do not edit it by hand.
   padding: 0;
   white-space: nowrap; }
   .question--links a:link {
-    color: red;
+    color: #41ab51;
     text-decoration: none; }
   .question--links a:visited {
-    color: red; }
+    color: #41ab51; }
   .question--links a:hover {
-    color: red; }
+    color: #41ab51; }
   .question--links a:focus {
-    color: red; }
+    color: #41ab51; }
   .question--links a.is-active:link {
-    color: red;
+    color: #41ab51;
     text-decoration: none; }
   .question--links a.is-active:visited {
-    color: red; }
+    color: #41ab51; }
   .question--links a.is-active:hover {
-    color: red; }
+    color: #41ab51; }
   .question--links a.is-active:focus {
-    color: red; }
+    color: #41ab51; }
   .question--links a.is-hidden {
     display: none; }
   .question--links a:before {
     margin-right: .5em; }
   .question--links a:hover {
-    color: red; }
+    color: #41ab51; }
 
 .question--editor-actions {
   font-size: .8em;
@@ -3135,7 +3135,7 @@ This file is generated by `grunt build`, do not edit it by hand.
   display: inline-block;
   margin-bottom: .25em;
   padding: .1em 1em;
-  background-color: blue;
+  background-color: #ff6138;
   color: white;
   cursor: pointer;
   font-size: 85%;
@@ -3146,7 +3146,7 @@ This file is generated by `grunt build`, do not edit it by hand.
     color: white;
     text-decoration: none; }
   .comments--user-page-comments-new:hover, .question--term:hover, .question--user-page-nodes-new:hover, .external-sources--term:hover, .at-term:hover {
-    background-color: #0000b3; }
+    background-color: #eb3000; }
 
 .tag--list-description {
   margin-bottom: .5em;
@@ -3439,12 +3439,12 @@ This file is generated by `grunt build`, do not edit it by hand.
   .password-strength-title .error,
   .password-strength-text .error,
   .password-strength .error {
-    color: blue; }
+    color: #ff6138; }
   .password-confirm .ok,
   .password-strength-title .ok,
   .password-strength-text .ok,
   .password-strength .ok {
-    color: red; }
+    color: #41ab51; }
 
 .edit-user--image-fieldset {
   position: relative;
@@ -3539,14 +3539,14 @@ This file is generated by `grunt build`, do not edit it by hand.
 .dashboard--filter-links {
   text-decoration: none; }
   .dashboard--filter-links a:link {
-    color: red;
+    color: #41ab51;
     text-decoration: none; }
   .dashboard--filter-links a:visited {
-    color: red; }
+    color: #41ab51; }
   .dashboard--filter-links a:hover {
-    color: red; }
+    color: #41ab51; }
   .dashboard--filter-links a:focus {
-    color: red; }
+    color: #41ab51; }
   .dashboard--filter-links a.is-active:link {
     color: white;
     text-decoration: none; }
@@ -3559,20 +3559,20 @@ This file is generated by `grunt build`, do not edit it by hand.
   .dashboard--filter-links a.is-hidden {
     display: none; }
   .dashboard--filter-links.is-active {
-    background: red;
+    background: #41ab51;
     color: white; }
 
 .dashboard--sort-links {
   text-decoration: none; }
   .dashboard--sort-links a:link {
-    color: red;
+    color: #41ab51;
     text-decoration: none; }
   .dashboard--sort-links a:visited {
-    color: red; }
+    color: #41ab51; }
   .dashboard--sort-links a:hover {
-    color: red; }
+    color: #41ab51; }
   .dashboard--sort-links a:focus {
-    color: red; }
+    color: #41ab51; }
   .dashboard--sort-links a.is-active:link {
     color: white;
     text-decoration: none; }
@@ -3585,13 +3585,13 @@ This file is generated by `grunt build`, do not edit it by hand.
   .dashboard--sort-links a.is-hidden {
     display: none; }
   .dashboard--sort-links.is-active {
-    background: red;
+    background: #41ab51;
     color: white; }
 
 .dashboard--filter-link {
   background: white;
   box-sizing: border-box;
-  border: 1px solid red;
+  border: 1px solid #41ab51;
   border-right: 0;
   display: inline-block;
   margin-left: -4px;
@@ -3599,18 +3599,18 @@ This file is generated by `grunt build`, do not edit it by hand.
   text-align: center;
   width: 50%; }
   .dashboard--filter-link.is-active {
-    background: red;
+    background: #41ab51;
     color: white; }
   .dashboard--filter-link:first-child {
     border-radius: 0.5em 0 0 0.5em; }
   .dashboard--filter-link:last-child {
-    border: 1px solid red;
+    border: 1px solid #41ab51;
     border-radius: 0 0.5em 0.5em 0; }
 
 .dashboard--sort-link {
   background: white;
   box-sizing: border-box;
-  border: 1px solid red;
+  border: 1px solid #41ab51;
   border-right: 0;
   display: inline-block;
   margin-left: -4px;
@@ -3618,18 +3618,18 @@ This file is generated by `grunt build`, do not edit it by hand.
   text-align: center;
   width: 25%; }
   .dashboard--sort-link.is-active {
-    background: red;
+    background: #41ab51;
     color: white; }
   .dashboard--sort-link:first-child {
     border-radius: 0.5em 0 0 0.5em; }
   .dashboard--sort-link:last-child {
-    border: 1px solid red;
+    border: 1px solid #41ab51;
     border-radius: 0 0.5em 0.5em 0; }
 
 .js-has-answers-removed {
   width: 33.33%; }
   .js-has-answers-removed.is-last {
-    border: 1px solid red;
+    border: 1px solid #41ab51;
     border-radius: 0 0.5em 0.5em 0; }
   .js-has-answers-removed.is-hidden {
     display: none; }
@@ -3811,7 +3811,7 @@ This file is generated by `grunt build`, do not edit it by hand.
     margin-top: 0.25em; }
 
 .taxonomy-subscription .view-content .views-field a {
-  color: blue; }
+  color: #ff6138; }
 
 /**
  * Active Tags module
@@ -3882,7 +3882,7 @@ This file is generated by `grunt build`, do not edit it by hand.
     .messages.warning:before {
       margin-right: .5em; }
   .messages.error {
-    background-color: #0000b3;
+    background-color: #eb3000;
     color: white; }
     .messages.error a:link {
       color: white;
@@ -3933,7 +3933,7 @@ This file is generated by `grunt build`, do not edit it by hand.
 .ui-widget-header .ui-state-focus {
   border: 0;
   background: transparent;
-  color: red; }
+  color: #41ab51; }
 
 .ui-menu .ui-menu-item a.ui-state-focus,
 .ui-menu .ui-menu-item a.ui-state-active {
@@ -4017,7 +4017,7 @@ This file is generated by `grunt build`, do not edit it by hand.
   user-select: none; }
 
 .autocomplete-deluxe-highlight-char {
-  color: red; }
+  color: #41ab51; }
 
 /**
  * Override Drupal loader
