@@ -1,0 +1,4 @@
+name = Loop skins
+description = This is a sub-theme of theme Loop
+core = 7.x
+base theme = loop
