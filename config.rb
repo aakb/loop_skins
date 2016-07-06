@@ -1,6 +1,6 @@
 # Set this to the root of your project when deployed:
 
-require 'zen-grids'
+require __dir__ + '/bower_components/zen-grids/lib/zen-grids'
 
 http_path = "/"
 css_dir = "css"
