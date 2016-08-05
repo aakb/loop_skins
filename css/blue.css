@@ -3213,7 +3213,6 @@ a.question--term.taxonomy-keyword {
     top: .5em;
     left: .49em;
     color: #b3b3b3;
-    font-size: 200%;
     z-index: 99; }
   .twitter-typeahead [class^=tt-dataset] {
     margin-bottom: 2em; }

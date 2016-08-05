@@ -72,7 +72,8 @@
     left: .49em;
 
     color: $gray;
-    font-size: 200%;
+    // @see http://stackoverflow.com/questions/6322916/ie9-bug-with-increased-font-size-of-css-content
+    // font-size: 200%;
 
     z-index: 99;
   }
