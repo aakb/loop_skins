@@ -38,11 +38,10 @@
   font-size: .85em;
 }
 
-// Allow style settings to override these colors.
 a.question--term.taxonomy-keyword {
-  background-color: $keyword-background-color; /*! setting:keyword_background_color */
+  background-color: $keyword-background-color;
 
   &:hover {
-    background-color: darken($keyword-background-color, 15%);/*! setting:keyword_hover_background_color */
+    background-color: darken($keyword-background-color, 15%);
   }
 }
