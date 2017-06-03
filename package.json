@@ -1,6 +1,6 @@
 {
   "description": "Loop themes",
-  "version": "0.0.1",
+  "version": "1.3.0",
   "private": true,
   "dependencies": {
     "compass-mixins": "Igosuki/compass-mixins.git#v0.12.10",
