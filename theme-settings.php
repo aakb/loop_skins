@@ -11,6 +11,7 @@ function loop_skins_form_system_theme_settings_alter(&$form, $form_state) {
       'cura' => t('Cura'),
       'buloop' => t('Børn og Unge'),
       'risikataloop' => t('Risikataloop'),
+      'dokk1' => t('Dokk1'),
     ),
     '#default_value' => theme_get_setting('loop_skins_skin'),
     '#description'   => t('Choose a skin for the site.'),
